@@ -33,7 +33,7 @@ Swal.fire({
 
     return name;
   },
-  allowOutsideClick: false
+  allowOutsideClick: true
 }).then((result) => {
   if (result.isConfirmed) {
     player1 = result.value;
@@ -52,7 +52,7 @@ p2nameSound.play()
         }
         return name;
       },
-      allowOutsideClick: false
+      allowOutsideClick: true
     }).then((result) => {
       if (result.isConfirmed) {
         player2 = result.value;
