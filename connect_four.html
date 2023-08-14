@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="connect_four.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous">
+    </script>
+
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <title>CONNECT FOUR</title>
+  </head>
+
+  <body>
+
+
+    <video id="backgroundVideo" autoplay loop muted>
+      <source src="bgvideo.mp4" type="video/mp4">
+      <!-- <source src="path/to/your/video.webm" type="video/webm"> -->
+      <!-- Add more source elements for different formats if needed -->
+      Your browser does not support the video tag.
+    </video>
+
+    <audio id="dropSound">
+      <source src="drop_sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="winSound">
+      <source src="win_sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+
+    <audio id="startSound">
+      <source src="start.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="p1nameSound">
+      <source src="p1name.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="p2nameSound">
+      <source src="p2name.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+
+<br>
+<br>
+
+    <div class="container" align ='center'>
+<h1>Welcome to CONNECT FOUR</h1>
+<h2>Connect 4 chips to win!</h2>
+<h3>Let's START!</h3>
+
+<br>
+<br>
+
+<table class="board">
+  <tr>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+
+  </tr>
+  <tr>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+
+  </tr>
+  <tr>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+
+  </tr>
+  <tr>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+
+  </tr>
+  <tr>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+
+  </tr>
+  <tr>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+    <td><button type="button"></button></td>
+
+  </tr>
+
+</table>
+
+</div>
+
+<script src="connect_four.js">
+
+</script>
+
+  </body>
+</html>
